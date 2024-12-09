@@ -3,7 +3,16 @@
 
 This project is a web-based application that visualizes earthquake data retrieved from the USGS Earthquake API. It uses the Leaflet.js library to render an interactive map,
 where each earthquake is represented by a marker whose size and color are determined by the earthquake's magnitude and depth, respectively.
+## Project Structure
+- **HTML**: Provides the basic structure for the project (`index.html`).
+- **CSS**: Styles the map and the legend (`style.css`).
+- **JavaScript**: Fetches and processes earthquake data, renders the map, and applies interactive features (`script.js`).
 
+## Usage
+Open the `index.html` file in a web browser.
+The map will display earthquake data with markers:
+   - **Size**: Reflects magnitude.
+   - **Color**: Reflects depth.
 ## Features
 - **Real-Time Data**: Displays earthquake data from the past week fetched directly from the USGS GeoJSON API.
 - **Dynamic Marker Customization**:
