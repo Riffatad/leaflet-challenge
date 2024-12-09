@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+.legend {
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
